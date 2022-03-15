@@ -1,7 +1,8 @@
 <div align="center">
   <h1>
     <div style="font-size:68px;">🎨</div>
-    React Design System Boilerplate
+    <div>clus-ui</div>
+    <div>Design System for React Apps.</div>
   </h1>
   <h4 align="center">This is a boilerplate for you to create your own design system in React. It has everything setup to allow you to focus on what it is you care about: creating awesome, reusable components.</h4>
 </div>
@@ -269,5 +270,3 @@ There is a pre-build script that is be run by npm when you publish (`npm run pre
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-> Made by [Zander ⚡](https://github.com/mrmartineau/)
