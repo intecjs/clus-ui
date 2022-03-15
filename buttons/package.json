@@ -1,9 +1,9 @@
 {
-  "main": "dist/react-design-system-starter-kit.cjs.js",
-  "module": "dist/react-design-system-starter-kit.esm.js",
+  "main": "dist/clus-ui.cjs.js",
+  "module": "dist/clus-ui.esm.js",
   "browser": {
-    "./dist/react-design-system-starter-kit.cjs.js": "./dist/react-design-system-starter-kit.browser.cjs.js",
-    "./dist/react-design-system-starter-kit.esm.js": "./dist/react-design-system-starter-kit.browser.esm.js"
+    "./dist/clus-ui.cjs.js": "./dist/clus-ui.browser.cjs.js",
+    "./dist/clus-ui.esm.js": "./dist/clus-ui.browser.esm.js"
   },
   "preconstruct": {
     "source": "../src/buttons"

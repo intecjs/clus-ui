@@ -1,24 +1,25 @@
 {
-  "name": "react-design-system-starter-kit",
+  "name": "clus-ui",
   "version": "0.0.0",
-  "description": "React-based design system start kit",
+  "description": "clus-ui is react-based design system",
   "repository": {
-    "url": "https://github.com/mrmartineau/react-design-system.git",
+    "url": "https://github.com/intecjs/clus-ui.git",
     "type": "git"
   },
   "author": {
-    "name": "Zander Martineau",
-    "url": "https://zander.wtf"
+    "name": "daisuke-awaji",
+    "url": "https://github.com/daisuke-awaji"
   },
   "license": "MIT",
-  "main": "dist/react-design-system-starter-kit.cjs.js",
-  "module": "dist/react-design-system-starter-kit.esm.js",
+  "main": "dist/clus-ui.cjs.js",
+  "module": "dist/clus-ui.esm.js",
   "browser": {
-    "./dist/react-design-system-starter-kit.cjs.js": "./dist/react-design-system-starter-kit.browser.cjs.js",
-    "./dist/react-design-system-starter-kit.esm.js": "./dist/react-design-system-starter-kit.browser.esm.js"
+    "./dist/clus-ui.cjs.js": "./dist/clus-ui.browser.cjs.js",
+    "./dist/clus-ui.esm.js": "./dist/clus-ui.browser.esm.js"
   },
   "types": "build/index.d.ts",
   "scripts": {
+    "dev": "yarn storybook",
     "test": "jest",
     "test:watch": "yarn test --watch",
     "test:coverage": "yarn test --coverage",
